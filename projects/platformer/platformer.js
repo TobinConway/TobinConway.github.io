@@ -24,7 +24,7 @@ $(function () {
     createPlatform(30,650,400,30)
     createPlatform(1000,500,3500,30)
     createPlatform(690,550,100,30)
-    createCannon("left", 650, 1, 10, 10)
+    createCannon("left", 650, 1, 100, 10)
 
     /**
      * Uncomment the loops below to add a "grid" to your platformer game's screen
