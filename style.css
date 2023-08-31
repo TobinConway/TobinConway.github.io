@@ -1,5 +1,5 @@
 body {
-    background: rgb(0, 0, 0);
+    background: rgb(255, 0, 0);
     color: rgb(55, 55, 92);
     padding: 10px;
     font-family: 'Times New Roman', Times, serif;
@@ -15,7 +15,7 @@ body {
 
 /* navigation menu */
 nav {
-    background: rgb(0, 0, 0);
+    background: rgb(12, 12, 12);
    margin: 0 auto;
     display: flex;
     padding: 10px;
