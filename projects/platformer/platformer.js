@@ -30,12 +30,12 @@ $(function () {
     createPlatform(130, 250, 300, 10)
 
 
-    createCannon("left", 650, 1, 50, 50) 
-    createCannon("top", 650, 1000,50 ,50)
-    createCannon("top", 950, 1000,50 ,50)
-    createCannon("top", 250, 500,50 ,50)
-    createCannon("left", 100, 2000, 50 ,50)
-    createCannon("top", 1290, 1000, 50, 50)
+    createCannon("left", 650, 1, 30, 30) 
+    createCannon("top", 650, 1000,30 ,30)
+    createCannon("top", 950, 1000,30 ,30)
+    createCannon("top", 250, 500,30 ,30)
+    createCannon("left", 100, 2000, 30 ,30)
+    createCannon("top", 1290, 1000, 30, 30)
     
     createCollectable("database", 140, 100, 10, 0)
     createCollectable("database", 1300, 100, 10, 0)
