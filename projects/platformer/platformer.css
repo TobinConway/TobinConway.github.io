@@ -3,8 +3,8 @@ body {
 }
 
 canvas {
-  background-color: lightgray;
-}
+  background-image: url("https://virtualbackgrounds.site/wp-content/uploads/2020/07/super-mario-bros-level-ending.jpg");
+background-size: 1400px 750px;}
 
 img {
   display: none;
