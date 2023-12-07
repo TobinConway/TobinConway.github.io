@@ -52,12 +52,11 @@ var init = function (window) {
             }
             }
             // TODO 5 / 10 : Call game.checkCirclePosition() on your circles.
-           /* game.checkCirclePosition(circles[i]);
+            /*game.checkCirclePosition(circles[i]);
             game.checkCirclePosition(circles[i]);
             game.checkCirclePosition(circles[i]);
             game.checkCirclePosition(circles[i]);
-            game.checkCirclePosition(circles[i]);*/ 
-            // TODO 9 : Iterate over the array
+            game.checkCirclePosition(circles[i]);*/            // TODO 9 : Iterate over the array
            
             
     
@@ -75,9 +74,15 @@ var init = function (window) {
             }
             
             // TODO 7 : YOUR CODE STARTS HERE //////////////////////
-            
-
-
+            if ( circle.x > canvas.hight ) {
+                circle.x = 0
+            }
+            if ( circle.x < canvas.width ) {
+                circle.x = 0
+            }
+            if ( circle.x < canvas.hight ) {
+                circle.x = 0
+            }
             // YOUR TODO 7 CODE ENDS HERE //////////////////////////
         }
         
